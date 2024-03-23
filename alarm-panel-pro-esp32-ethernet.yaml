@@ -129,6 +129,12 @@ packages:
       # Enables a 'Warning Beep' entity, intended to be used with a piezo buzzer. This is 
       # implemented using a light entity with strobe effect to create a repeated beeping sound.
       - packages/warning-beep.yaml
+
+light:
+  - platform: gpio
+    pin: $out2
+    name: warning-beep-2
+
   
   
 dashboard_import:
