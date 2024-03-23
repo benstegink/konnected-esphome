@@ -130,16 +130,13 @@ packages:
       # implemented using a light entity with strobe effect to create a repeated beeping sound.
       - packages/warning-beep.yaml
 
-switch:
+light:
   - platform: gpio
     pin: $out2
     name: warning-beep-2
   - platform: gpio
     pin: $alarm2
     name: warning-beep-3
-  - platform: gpio
-    pin: $zone12
-    name: warning-beep-4
 
   
   
