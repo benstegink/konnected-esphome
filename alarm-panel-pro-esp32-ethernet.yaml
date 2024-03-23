@@ -134,6 +134,9 @@ light:
   - platform: gpio
     pin: $out2
     name: warning-beep-2
+  - platform: gpio
+    pin: $alarm2
+    name: warning-beep-2
 
   
   
