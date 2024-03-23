@@ -130,7 +130,7 @@ packages:
       # implemented using a light entity with strobe effect to create a repeated beeping sound.
       - packages/warning-beep.yaml
 
-light:
+switch:
   - platform: gpio
     pin: $out2
     name: warning-beep-2
@@ -144,7 +144,7 @@ light:
   
   
 dashboard_import:
-  package_import_url: github://konnected-io/konnected-esphome/alarm-panel-pro-esp32-ethernet.yaml@master
+  package_import_url: github://benstegink/konnected-esphome/alarm-panel-pro-esp32-ethernet.yaml@master
   import_full_config: false
 
 ####
