@@ -6,7 +6,7 @@ output:
       allow_other_uses: $warning_beep_2_shared
 
 script:
-  - id: error_tone
+  - id: error_tone_2
     then:
       - output.turn_on: buzzer_output_2
       - delay: 60ms
