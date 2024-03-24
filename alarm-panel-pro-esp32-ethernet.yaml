@@ -137,8 +137,6 @@ light:
   - platform: gpio
     pin: $alarm2
     name: warning-beep-3
-
-  
   
 dashboard_import:
   package_import_url: github://benstegink/konnected-esphome/alarm-panel-pro-esp32-ethernet.yaml@master
