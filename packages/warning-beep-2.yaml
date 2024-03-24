@@ -3,7 +3,7 @@ output:
     platform: gpio
     pin:
       number: $warning_beep2_pin
-      allow_other_uses: $warning_beep2_shared
+      allow_other_uses: $warning_beep_2_shared
 
 script:
   - id: error_tone
