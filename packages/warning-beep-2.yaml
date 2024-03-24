@@ -1,5 +1,5 @@
 output:
-  - id: buzzer_output
+  - id: buzzer_output_2
     platform: gpio
     pin:
       number: $warning_beep_pin
